@@ -1,0 +1,104 @@
+nav {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: var(--primary3);
+  z-index: 5;
+}
+
+nav div {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav div p {
+  /* outline: green solid 1px; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+nav div .v2-logo {
+  width: 100%;
+}
+
+nav div p span {
+  color: var(--yellow1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav div ul {
+  position: absolute;
+  margin: 0 auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  height: 1.6em;
+}
+
+nav div ul li {
+  display: inline;
+  margin-left: 1rem;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+nav div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav div ul li a:hover {
+  color: var(--yellow1);
+}
+
+@media (max-width: 420px) {
+  nav div p {
+    /* outline: green solid 1px; */
+    position: absolute;
+    margin: auto;
+    font-size: 1.2rem;
+    top: 30%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .v2-logo {
+    /* outline: green solid 1px; */
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+  }
+
+  .v2-logo span {
+    color: var(--yellow1);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  nav div p span {
+    font-size: 1.2rem;
+  }
+
+  nav div ul {
+    width: 100%;
+    text-align: center;
+    top: 70%;
+  }
+
+  nav div ul li {
+    margin: 0 1.2rem;
+  }
+}

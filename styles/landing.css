@@ -1,0 +1,75 @@
+@import "about.css";
+@import "edtech.css";
+
+.landing {
+  padding-top: 80px;
+}
+
+#hero {
+  position: relative;
+  background: url('../assets/stock-photos/Landing.png');
+  background-position: center;
+  /* background-size: 200%; */
+  box-shadow: inset 0 0 0 1000px rgb(12, 18, 40, 0.6);
+  height: 80vh;
+}
+
+#hero .text-container {
+  /* outline: green solid 1px; */
+  position: absolute;
+  width: 800px;
+  max-width: 90%;
+  left: 8%;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+#hero p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#hero .edtech {
+  color: white;
+  font-size: 2rem;
+}
+
+#hero .plm {
+  color: var(--yellow1);
+  font-size: 4rem;
+}
+
+@media (max-width: 640px) {
+  #hero {
+    height: 140vw;
+    max-height: 90vh;
+    background-size: 250%;
+  }
+
+  #hero .edtech {
+    font-size: 1.4rem;
+  }
+
+  #hero .plm {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  #hero {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  #hero .text-container {
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  #hero p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,127 @@
+.digital-era {
+  padding-top: 6rem;
+  width: 800px;
+  max-width: 80%;
+  /* outline: green solid 1px; */
+  margin: 0 auto;
+}
+
+.digital-era a {
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.digital-era h1 {
+  text-align: center;
+}
+
+.digital-era p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.digital-era .product {
+  position: relative;
+  margin-top: 4rem;
+  /* outline: green solid 1px; */
+  display: grid;
+  grid-template-columns: auto 140px;
+  grid-gap: 10%;
+}
+
+.digital-era .product p {
+  margin-top: 0;
+}
+
+.digital-era .product .product-grid-item {
+  position: relative;
+}
+
+.digital-era .product .product-grid-item img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.digital-era .ms-products {
+  margin-top: 3.2rem;
+  /* outline: green solid 1px; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 3%;
+}
+
+.digital-era .ms-products .software-card-container {
+  /* outline: green solid 1px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  /* height: 200px; */
+}
+
+.digital-era .ms-products .software-card {
+  /* outline: green solid 1px; */
+  width: 140px;
+  margin: 0 1.6rem;
+}
+
+.digital-era .ms-products .software-card p {
+  text-align: center;
+  font-weight: 700;
+  color: var(--primary3)
+}
+
+.digital-era img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .digital-era .ms-products {
+    grid-gap: 5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .digital-era .ms-products .software-card {
+    margin-top: 1rem;
+    width: 120px;
+  }
+
+  .digital-era .product {
+    grid-template-columns: auto 120px;
+  }
+}
+
+@media (max-width: 420px) {
+  .digital-era .ms-products {
+    grid-gap: 2%;
+  }
+
+  .digital-era .product {
+    grid-template-columns: auto;
+    grid-template-rows: auto 80px;
+    grid-gap: 4%;
+  }
+
+  /* .digital-era .product .product-grid-item {
+    outline: green solid 1px;
+  } */
+
+  .digital-era .product img {
+    width: 80px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .digital-era .ms-products .software-card {
+    margin-top: 1rem;
+    width: 80px;
+    margin: 0.6rem;
+  }
+}
