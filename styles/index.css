@@ -2,6 +2,7 @@
 @import "landing.css";
 @import "digitalera.css";
 @import "plmemail.css";
+@import "insidethecampus.css";
 
 :root {
   --primary1: #3652b5;
@@ -33,18 +34,17 @@ body {
 
 h1 {
   color: var(--primary4);
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 h2 {
   color: var(--primary4);
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 h3 {
   color: var(--primary4);
   font-size: 1.4rem;
-  text-align: center;
 }
 
 @media (max-width: 640px) {
