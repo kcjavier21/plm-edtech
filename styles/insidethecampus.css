@@ -1,19 +1,4 @@
-.inside-the-campus {
-  padding-top: 6rem;
-  width: 800px;
-  max-width: 80%;
-  /* outline: green solid 1px; */
-  margin: 0 auto;
-}
-
-.inside-the-campus a {
-  font-size: 0.8rem;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.inside-the-campus h1{
+.inside-the-campus h1 {
   margin-bottom: 3.2rem;
 }
 
@@ -26,10 +11,6 @@
   /* outline: green solid 1px; */
   grid-gap: 0;
   margin-bottom: 3.2rem;
-}
-
-.inside-the-campus h2 {
-  /* outline: green solid 1px; */
 }
 
 .inside-the-campus figure {
@@ -53,45 +34,5 @@
 @media (max-width: 1024px) {
   .inside-the-campus .sub-item {
     grid-gap: 5%;
-  }
-}
-
-@media (max-width: 640px) {
-  .inside-the-campus .sub-item .software-card {
-    margin-top: 1rem;
-    width: 120px;
-  }
-
-  .inside-the-campus .product {
-    grid-template-columns: auto 120px;
-  }
-}
-
-@media (max-width: 420px) {
-  .inside-the-campus .grid-item {
-    grid-gap: 2%;
-  }
-
-  .inside-the-campus .product {
-    grid-template-columns: auto;
-    grid-template-rows: auto 80px;
-    grid-gap: 4%;
-  }
-
-  /* .inside-the-campus .product .product-grid-item {
-    /* outline: green solid 1px; */
-  } */
-
-  .inside-the-campus .product img {
-    width: 80px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-  }
-
-  .inside-the-campus .grid-item .software-card {
-    margin-top: 1rem;
-    width: 80px;
-    margin: 0.6rem;
   }
 }

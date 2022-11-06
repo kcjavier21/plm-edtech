@@ -47,8 +47,36 @@ h3 {
   font-size: 1.4rem;
 }
 
+.article {
+  padding: 6rem 0;
+  width: 800px;
+  max-width: 90%;
+  /* outline: green solid 1px; */
+  margin: 0 auto;
+}
+
+.article a {
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.article h3 {
+  text-align: center;
+}
+
+.article p {
+  /* margin-top: 1rem; */
+  font-size: 1.2rem;
+}
+
 @media (max-width: 640px) {
   * {
     font-size: 14px;
+  }
+
+  .article {
+    padding: 7.2rem 0;
   }
 }

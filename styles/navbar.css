@@ -9,7 +9,8 @@ nav {
 nav div {
   position: relative;
   height: 100%;
-  width: 80%;
+  width: 1240px;
+  max-width: 85%;
   margin: 0 auto;
 }
 

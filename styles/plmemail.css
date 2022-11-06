@@ -1,25 +1,5 @@
-.plm-email {
-  padding: 6rem 0;
-  width: 800px;
-  max-width: 80%;
-  /* outline: green solid 1px; */
-  margin: 0 auto;
-}
-
-.plm-email a {
-  font-size: 0.8rem;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 700;
-}
-
 .plm-email h3 {
   text-align: center;
-}
-
-.plm-email p {
-  /* margin-top: 1rem; */
-  font-size: 1.2rem;
 }
 
 .plm-email .perks {
@@ -37,7 +17,6 @@
   grid-template-rows: 100px auto;
   grid-gap: 5%;
   width: 250px;
-  /* height: 360px; */
   margin-top: 3.2rem;
 }
 

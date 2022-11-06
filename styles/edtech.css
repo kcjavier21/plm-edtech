@@ -1,7 +1,7 @@
 #edtech-in-plm {
   padding-top: 6rem;
   width: 1024px;
-  max-width: 80%;
+  max-width: 90%;
   /* outline: green solid 1px; */
   margin: 0 auto;
 }
@@ -14,6 +14,11 @@
 #edtech-in-plm p {
   margin-top: 1rem;
   font-size: 1.2rem;
+}
+
+#edtech-in-plm p a {
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 #edtech-in-plm .card-containers {
