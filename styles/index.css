@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "landing.css";
 @import "digitalera.css";
+@import "plmemail.css";
 
 :root {
   --primary1: #3652b5;
@@ -38,6 +39,12 @@ h1 {
 h2 {
   color: var(--primary4);
   font-size: 2.4rem;
+}
+
+h3 {
+  color: var(--primary4);
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
