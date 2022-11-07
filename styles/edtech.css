@@ -12,12 +12,12 @@
 }
 
 #edtech-in-plm p {
+  text-align: justify;
   margin-top: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #edtech-in-plm p a {
-  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@
 } 
 
 #edtech-in-plm .card h3 {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: white;
 }
 

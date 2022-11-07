@@ -8,6 +8,7 @@
 }
 
 .digital-era .product p {
+  text-align: justify;
   margin-top: 0;
 }
 
@@ -46,7 +47,8 @@
 }
 
 .digital-era .ms-products .software-card p {
-  text-align: center;
+  /* text-justify: center; */
+  text-align: justify;
   font-weight: 700;
   color: var(--primary3)
 }

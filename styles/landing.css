@@ -9,9 +9,9 @@
   position: relative;
   background: url('../assets/captured-photos/computer-lab-2.jpg');
   background-position: center;
-  background-size: 140%;
+  background-size: 180%;
   box-shadow: inset 0 0 0 1000px rgb(12, 18, 40, 0.75);
-  height: 80vh;
+  height: 90vh;
 }
 
 #hero .text-container {
