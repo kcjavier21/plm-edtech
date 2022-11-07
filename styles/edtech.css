@@ -2,12 +2,10 @@
   padding-top: 6rem;
   width: 1024px;
   max-width: 90%;
-  /* outline: green solid 1px; */
   margin: 0 auto;
 }
 
 #edtech-in-plm h1 {
-  /* outline: green solid 1px; */
   text-align: center;
 }
 
@@ -47,15 +45,20 @@
 }
 
 #edtech-in-plm .card .card-content:nth-child(2) {
-  /* outline: green solid 1px; */
   font-size: 1.5rem;
   padding: 5%;
   position: relative;
 } 
 
 #edtech-in-plm .card h3 {
-  /* font-size: 1.5rem; */
   color: white;
+}
+
+#edtech-in-plm .card span {
+  position: absolute;
+  color: white;
+  bottom: 16%;
+  font-size: 0.8rem;
 }
 
 #edtech-in-plm .card a {
@@ -69,7 +72,12 @@
   text-align: center;
   border-radius: 0.6rem;
   text-decoration: none;
-} 
+  transition: 200ms;
+}
+
+#edtech-in-plm .card a:hover {
+  background: var(--yellow2);
+}
 
 @media (max-width: 640px) {
   #edtech-in-plm .card  {

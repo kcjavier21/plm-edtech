@@ -1,5 +1,5 @@
-@import "about.css";
-@import "edtech.css";
+@import 'about.css';
+@import 'edtech.css';
 
 .landing {
   padding-top: 80px;
@@ -15,16 +15,18 @@
 }
 
 #hero .text-container {
-  /* outline: green solid 1px; */
   position: absolute;
   width: 800px;
   max-width: 90%;
-  left: 12%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   top: 40%;
   transform: translateY(-50%);
 }
 
 #hero p {
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -39,13 +41,22 @@
   font-size: 4rem;
 }
 
+#hero .chevron-down {
+  position: absolute;
+  width:20px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 4rem;
+}
+
 @media (max-width: 920px) {
   #hero {
     background-size: 250%;
   }
 
   #hero .text-container {
-    /* outline: green solid 1px; */
     left: 5%;
   }
 }
@@ -54,7 +65,6 @@
   #hero {
     height: 140vw;
     max-height: 90vh;
-    /* background-size: 250%; */
   }
 
   #hero .edtech {

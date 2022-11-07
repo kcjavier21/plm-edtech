@@ -1,0 +1,27 @@
+footer {
+  padding: 2rem;
+  background: var(--primary3);
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+footer .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+footer div .v2-logo {
+  width: 100%;
+}
+
+footer .logo span {
+  color: var(--yellow1);
+  font-size: 2rem;
+  font-weight: 700;
+}
