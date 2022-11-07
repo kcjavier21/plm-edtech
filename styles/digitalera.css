@@ -27,7 +27,7 @@
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-gap: 3%;
+  grid-gap: 5%;
 }
 
 .digital-era .ms-products .software-card-container {
