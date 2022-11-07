@@ -37,3 +37,10 @@
   margin-top: 0.4rem;
   text-align: center;
 }
+
+
+@media (max-width: 420px) {
+  .plm-email .perks .perks-item {
+    grid-template-rows: 80px auto;
+  }
+}

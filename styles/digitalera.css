@@ -3,8 +3,8 @@
   margin-top: 4rem;
   /* outline: green solid 1px; */
   display: grid;
-  grid-template-columns: auto 140px;
-  grid-gap: 10%;
+  grid-template-columns: auto 100px;
+  grid-gap: 5%;
 }
 
 .digital-era .product p {
@@ -42,7 +42,7 @@
 
 .digital-era .ms-products .software-card {
   /* outline: green solid 1px; */
-  width: 140px;
+  width: 100px;
   margin: 0 1.6rem;
 }
 
@@ -67,11 +67,11 @@
 @media (max-width: 640px) {
   .digital-era .ms-products .software-card {
     margin-top: 1rem;
-    width: 120px;
+    width: 80px;
   }
 
   .digital-era .product {
-    grid-template-columns: auto 120px;
+    grid-template-columns: auto 80px;
   }
 }
 
